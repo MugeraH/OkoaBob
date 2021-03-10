@@ -17,3 +17,14 @@ body {
 #navbarResponsive li {
   padding-right: 20px;
 }
+#navbarResponsive li {
+  padding-right: 20px;
+}
+#heading1 {
+  background: blue;
+  opacity: 0.7;
+}
+#last-caption {
+  color: yellow;
+  opacity: 0.5;
+}
