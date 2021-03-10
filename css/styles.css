@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap");
+body {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  color: 222;
+}
+#nav-main {
+  background: linear-gradient(to bottom, #20f744 0%, aqua 100%);
+  opacity: 0.5;
+  border-radius: 50px;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+#navbarResponsive li {
+  padding-right: 20px;
+}
+#navbarResponsive li {
+  padding-right: 20px;
+}
+#heading1 {
+  background: blue;
+  opacity: 0.7;
+}
+#last-caption {
+  color: yellow;
+  opacity: 0.5;
+}
+#what-we-do {
+  background: grey;
+  color: white;
+  font-weight: bold;
+  opacity: 0.8;
+  font-family: "B612", sans-serif;
+}
+/*Code for responsiveness should be added below*/
+@media screen and (max-width: 770px) {
+  #heading1 {
+    font-size: x-large;
+  }
+}
+
