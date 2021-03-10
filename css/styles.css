@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap");
+body {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  color: 222;
+}
