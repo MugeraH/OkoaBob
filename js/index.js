@@ -127,7 +127,7 @@ $('.priceInfo').show()
 document.getElementById("table").innerHTML += t;  
 })
 })
-  })
+})
 .catch(console.error);
 
 
