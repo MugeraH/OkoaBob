@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   //login form toggle sign-in and sing-up forms
 $('.sign-up').click(()=>{
-  $('#signIn').slideUp(100);
+  $('#signIn').slideUp(400);
   $('#signUp').show(400);
 }) 
 
