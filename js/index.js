@@ -100,10 +100,10 @@ $(document).ready(function() {
     }
     resetTable()
     let selectedProduct = $("#productSelection option:selected").val();
-  
+  $('#product').text(selectedProduct)
     //gets an individual product price list in different retail stores
-  let selectedPriceList = getPriceList(selectedProduct);
-  let prices = []
+    let selectedPriceList = getPriceList(selectedProduct);
+    let prices = []
 
 
   //populate table with product price list data 

@@ -83,6 +83,11 @@ tbody {
 }
 
 .priceInfo {
-  font-size: 25px;
+  font-size: 27px;
   display: none;
+  color: black;
+}
+
+#product {
+  text-transform: capitalize;
 }
