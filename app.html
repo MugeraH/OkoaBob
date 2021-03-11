@@ -74,18 +74,22 @@
               <p class="p-0 m-0 intro-text">Welcome to Okoa App</p>
               <p class="intro-text">Get the best value for your money</p>
               <div class="input-group mb-3">
-                <select class="select form-control">
+
+                <select class="select form-control" id="productSelection">
+
                   <option>...</option>
                   <option value="tissue">Tissue</option>
                   <option value="lotion">Lotion</option>
                   <option value="kiwi">Kiwi</option>
                   <option value="salt">Salt</option>
                   <option value="sugar">Sugar</option>
-                  <option value="soap">Barsoap</option>
-                  <option value="oil">Cooking Oil</option>
+
+                  <option value="barsoap">Barsoap</option>
+                  <option value="cooking oil">Cooking Oil</option>
                   <option value="vaseline">Vaseline</option>
                   <option value="flour">Flour</option>
-                  <option value="band">Blue-Band</option>
+                  <option value="blueband">Blue-Band</option>
+
                 </select>
 
                 <a class="btn" type="button" id="selectBtn"> Check Price </a>
@@ -100,79 +104,25 @@
                     <th>Current Product Price</th>
                   </tr>
                 </thead>
-                <tbody id="tableData">
-                
-                </tbody>
+
+                <tbody id="tableData"></tbody>
+
               </table>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-text" href="#">OkoaBob</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
-      <select class="select">
-        <option selected>Select the item you'd like to purchase</option>
-        <option value="tissue">Tissue</option>
-        <option value="lotion">Lotion</option>
-        <option value="kiwi">Kiwi</option>
-        <option value="salt">Salt</option>
-        <option value="sugar">Sugar</option>
-        <option value="soap">Barsoap</option>
-        <option value="oil">Cooking Oil</option>
-        <option value="vaseline">Vaseline</option>
-        <option value="flour">Flour</option>
-        <option value="band">Blue-Band</option>
-      </select>
-      <input
-        class="btn btn-danger"
-        type="submit"
-        value="Submit"
-        style="height: 50px"
-      />
 
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Retailer</th>
-            <th scope="col">Product</th>
-            <th scope="col">Product Price</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Carrefour</td>
-            <td>Tissue</td>
-            <td>84</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Naivas</td>
-            <td>Tissue</td>
-            <td>80</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Sokoni</td>
-            <td>Tissue</td>
-            <td>70</td>
-          </tr>
-        </tbody>
-      </table> -->
-    <!-- </div> -->
+      <div class="priceInfo">
+        <p class="priceInfo mt-4">
+          <span id="product"></span> cheapest price is
+          <span class="price"></span>
+        </p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="./js/index.js"></script>
+
   </body>
 </html>
