@@ -35,6 +35,13 @@ body {
   opacity: 0.8;
   font-family: "B612", sans-serif;
 }
+#footer {
+  background: rgb(173, 230, 206);
+
+}
+
+
+
 
 /*Code for responsiveness should be added below*/
 @media screen and (max-width: 770px) {
