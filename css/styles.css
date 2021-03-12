@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap");
+
+*{
+  scroll-behavior: smooth;
+}
 body {
   height: 100%;
   width: 100%;
   color: 222;
+  animation: drop 1.5s ease;
 }
 #nav-main {
   background: #f00c0c; /* fallback for old browsers */
@@ -85,26 +90,26 @@ padding: 80px 0px;
 
 .activities {
   padding: 60px 0px;
-  background-color: #f00c0c;
+  background-color: #fff;
   display: flex;
+
 }
 .activities .row {
   display: flex;
   flex-wrap: wrap;
+
   align-items: center;
   margin: 0px auto;
 }
-.card {
-  border: none;
-}
+
 .card-body {
-  background-color: #f00c0c;
+  background-color: #fff;
 }
 
 .card-text{
   margin-top: 5px;
-  color: #fff;
-  font-size: 18px;
+  color: #000;
+  font-size: 19px;
 }
 .carousel-item img {
   opacity: 0.8;
@@ -122,13 +127,37 @@ padding: 80px 0px;
   opacity: 0.5;
 }
 
-#footer {
-  background: rgb(173, 230, 206);
+.footer {
+  /* background-color: #f00c0c; 
+   */background: linear-gradient(to bottom, #f00c0c 0%, rgb(0, 0, 0) 100%);
+
+  color: #fff;
+}
+
+
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 /*Code for responsiveness should be added below*/
 @media screen and (max-width: 770px) {
   #heading1 {
     font-size: x-large;
+  }
+  .activities .row{
+
+display: flex;
+justify-content: center;
+  }
+  .activities .row .col-md-4{
+      margin-bottom: 20px;
   }
 }
