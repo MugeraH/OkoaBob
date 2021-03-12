@@ -8,6 +8,13 @@ This is a website that helps every common mwananchi with concerns of high cost o
 
 Visit the live site [Here](mugerah.github.io/okoabob/)
 
+
+## Preview
+
+![image](img/screenshot.jpg)
+
+
+
 ## Project Setup Instructions
 
 - Open Terminal {Ctrl+Alt+T}
