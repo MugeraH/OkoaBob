@@ -5,7 +5,7 @@
 }
 
 #nav-main {
-<<<<<<< HEAD
+
   background: #f00c0c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -18,20 +18,7 @@
     #f00c0c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 3px solid #f00c0c;
-=======
-  background: #ed213a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #93291e,
-    #ed213a
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #93291e,
-    #ed213a
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border: 3px solid #ed213a;
->>>>>>> 6f630b6f0d62f7b43f8d49fe512726a64c6c9b2e
+
 
   font-weight: bold;
 }
@@ -65,8 +52,7 @@
   box-shadow: none;
 }
 
-<<<<<<< HEAD
-=======
+
 .select {
   border: 4px solid black;
   height: 50px;
@@ -121,7 +107,7 @@ tbody {
 
 }
 
->>>>>>> 6f630b6f0d62f7b43f8d49fe512726a64c6c9b2e
+
 #selectBtn {
   background: #ed213a;
   padding-top: 10px;
@@ -150,11 +136,9 @@ thead {
   font-size: 18px;
 }
 tbody {
-<<<<<<< HEAD
+
   background-color: rgba(56, 55, 55, 0.829);
-=======
-  background-color: rgb(24, 24, 24);
->>>>>>> 6f630b6f0d62f7b43f8d49fe512726a64c6c9b2e
+
   color: white !important;
 }
 
