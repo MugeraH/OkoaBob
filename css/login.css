@@ -6,7 +6,7 @@
 
 body {
   margin-top: 2%;
-
+  animation: drop 1.5s ease;
 }
 
 #signUp {
@@ -86,4 +86,16 @@ label {
 }
 .icons img {
   height: 40px;
+}
+
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }

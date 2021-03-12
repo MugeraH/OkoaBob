@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  animation: drop 1.5s ease;
+}
 
 #nav-main {
   background: #f00c0c; /* fallback for old browsers */
@@ -126,4 +129,15 @@ tbody {
 
 #product {
   text-transform: capitalize;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
