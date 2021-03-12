@@ -52,25 +52,25 @@ label {
   font-size: 19px !important;
 
   font-weight: 800;
-  background: #ed213a; /* fallback for old browsers */
+  background: #f00c0c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #93291e,
-    #ed213a
+  #f00c0c,
+    #f00c0c
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #93291e,
-    #ed213a
+    #f00c0c,
+    #f00c0c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border: 3px solid #ed213a;
+  border: 3px solid #f00c0c;
   border-radius: 20px;
   color: white;
 }
 
 #login-btn:hover {
   background: white;
-  border: 3px solid #ed213a;
+  border: 3px solid #f00c0c;
   color: black;
 }
 

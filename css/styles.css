@@ -1,25 +1,118 @@
 @import url("https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap");
 body {
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
   height: 100%;
   width: 100%;
   color: 222;
 }
 #nav-main {
-  background: linear-gradient(to bottom, #20f744 0%, aqua 100%);
-  opacity: 0.5;
-  border-radius: 50px;
-  padding: 0.8rem;
+  background: #f00c0c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f00c0c,
+    #f00c0c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f00c0c,
+    #f00c0c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 3px solid #f00c0c;
+
   font-weight: bold;
 }
 #navbarResponsive li {
   padding-right: 20px;
 }
-#navbarResponsive li {
-  padding-right: 20px;
+
+.nav-link {
+  color: #fff !important;
 }
+
+.logo-text {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 27px;
+}
+
+.introduction-section {
+  display: flex;
+padding: 80px 0px;
+}
+.intro-text {
+  margin: 100px 0px;
+}
+.intro {
+  font-size: 4rem;
+}
+.intro-text p {
+  font-size: 1.5rem;
+}
+.explore-btn {
+  background-color: #f00c0c;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+}
+.explore-btn:hover {
+  border: 2px solid #f00c0c;
+  color: black;
+  background-color: white;
+  font-size: 19px;
+  font-weight: 500;
+}
+.jumbotron {
+  background-color: #f00c0c;
+  color: #fff;
+}
+#what-we-do {
+  margin: 40px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#what-we-do h2 {
+  font-size: 2.5rem;
+}
+.strategy{
+  margin: 40px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.strategy h2 {
+  font-size: 2.5rem;
+}
+
+.activities {
+  padding: 60px 0px;
+  background-color: #f00c0c;
+  display: flex;
+}
+.activities .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0px auto;
+}
+.card {
+  border: none;
+}
+.card-body {
+  background-color: #f00c0c;
+}
+
+.card-text{
+  margin-top: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+.carousel-item img {
+  opacity: 0.8;
+}
+.carousel-item .carousel-caption {
+  opacity: 1;
+}
+
 #heading1 {
   background: blue;
   opacity: 0.7;
@@ -28,20 +121,10 @@ body {
   color: yellow;
   opacity: 0.5;
 }
-#what-we-do {
-  background: grey;
-  color: white;
-  font-weight: bold;
-  opacity: 0.8;
-  font-family: "B612", sans-serif;
-}
+
 #footer {
   background: rgb(173, 230, 206);
-
 }
-
-
-
 
 /*Code for responsiveness should be added below*/
 @media screen and (max-width: 770px) {
