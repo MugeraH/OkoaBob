@@ -27,48 +27,113 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/index.js"></script>
-    <title>Okoa BOb</title>
+    <title>OkoaBob | Savings App</title>
   </head>
-  <body style="background-image: url(img/background.jpg)">
+  <body>
     <!--Navigation-->
-    <nav
-      id="nav-main"
-      class="navbar navbar-expand-md navbar-light bg-light sticky-top"
-    >
-      <div class="container-fluid">
-        <a id="logo" class="logo" href="./about.html"
-          ><img src="img/logo.png" alt="logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="./about.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./app.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Log out</a>
-            </li>
-          </ul>
+    <header>
+      <nav
+        id="nav-main"
+        class="navbar navbar-expand-md navbar-light bg-light sticky-top"
+      >
+        <div class="container-fluid">
+          <a id="logo" class="logo" href="./about.html"
+            ><img src="img/logo.png" alt="logo" /></a
+          ><span class="logo-text">OkoaBob</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./about.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Log out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mt-5 introduction-section">
+        <div class="row">
+          <div class="col-md-7 col-sm-12 intro-text">
+            <h2 class="intro">OkoaBob</h2>
+            <p>Online Price Comparator</p>
+            <p>
+              Let us help you make more savings, let us help you make every
+              shilling count
+            </p>
+            <a class="btn explore-btn px-5 py-2" href="app.html">Explore</a>
+          </div>
+          <div class="col-md-5">
+            <img src="img/logo2.png" alt="logo" class="img-fluid" />
+          </div>
         </div>
       </div>
-    </nav>
-    <!--image slider -->
-    <div class="container fluid">
+    </header>
+
+    <!--Jumbotron-->
+    <div class="container-fluid">
+      <div class="row jumbotron text-center">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <h3>About OkoaBob</h3>
+          <p class="lead">
+            OkoaBob is a product cost comparison app, that takes in a specific
+            product then compares the prices of the product in a number of
+            common retail supermarket stores then it lets the user know at which
+            store is he/she most likely to spend the least thus enabling them to
+            save a shilling(bob) or more.At the click of a button
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div  class="container-fluid">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-12 text-center" id="what-we-do">
+          <h2>What We do</h2>         
+          <br />
+          <p>
+            We are a team of developers who pride ourselves in aiming for help
+            the common mwananchi improve on both a social economic and community
+            level.We seek for innovation but farther more innovation that
+            enriches peoples lives
+          </p>
+          <p></p>
+        </div>
+
+      
+        
+      
+        </div>
+      
+    
+      </div>
+
+    </div>
+
+  
+
+
+    <!--image slider -->
+    <div class="container mt-5">
+      <div class="row text-center">
+      
+        <div class="col-lg-12 ">
+      
           <div id="slides" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -82,20 +147,10 @@
                   alt="background image"
                   class="img-fluid"
                 />
-                <div class="carousel-caption">
-                  <h1 id="heading1" class="display-2">Okoa Bob</h1>
-                  <br />
-                  <a id="save-more" href="./app.html">
-                    <button type="button" class="btn btn-primary btn-lg">
-                      Save More!
-                    </button>
-                  </a>
-                </div>
+              
               </div>
               <div class="carousel-item">
-                <div class="carousel-caption" id="last-caption">
-                  <h1 class="display-4">Save money on shopping!</h1>
-                </div>
+              
                 <img
                   src="img/background1.jpg"
                   alt="background image2"
@@ -108,59 +163,53 @@
                   alt="background image3"
                   class="img-fluid"
                 />
-              </div>
+              
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--Jumbotron-->
-    <div class="container-fluid">
-      <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-          <h3>About Us</h3>
-          <p class="lead">
-            When the corona pandemic hit everything changed we were all hit with
-            a wave of hard economic times,with the random job losses and
-            shortage in cashflow circulation it came to a point where every
-            shilling mattered. But still even as wait for the economic
-            environment to get better what if we came up with a way to help the
-            common mwananchi save as little as a bob in their daily expenditure
-          </p>
-        </div>
-      </div>
+    <div class="container text-center strategy">
+      <h2>Our Strategy</h2>
+      <p >We invite retailers,small-retail business or even large retail-chain store to come partner with us an get a platform to let people only of their affordable product that they have at their physical or online stores.By providing us with your catalog dat we are able to get htis information quite easily to the common day mwanainchi</p>
     </div>
+
     <!--two column section-->
-    <div id="what-we-do" class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <h2>What We do</h2>
-          <br />
-          <p>
-            OkoaBob is a product cost comparison app, that takes in a specific
-            product then compares the prices of the product in a number of
-            common retail supermarket stores then it lets the user know at which
-            store is he/she most likely to spend the least thus enabling them to
-            save a shilling(bob) or more.
-          </p>
-          <p>
-            OKoa bob website will allow the user login into the website and
-            access the page to enable them select their product and get
-            different retail prices in different retail stores thereafter he or
-            she can make an informed choice on where to do their shopping
-          </p>
-          <img src="img/logo2.png" alt="logo" class="img-fluid" />
+    <div class="container-fluid activities">
+
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/innovation.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">We innovate and inspire innovators</p>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6">
-          <img src="img/section3Image.jpg" alt="shopping" class="img-fluid" />
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/community.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">We aim for community development,till every community member improves themselves</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/promotion.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">We promote products and offer advertising of products.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
     <hr class="my-4" />
     <!---meet the team-->
 
-<!----Footer-->
-<div id="footer" class="container-fluid">
+    <!----Footer-->
+    <div id="footer" class="container-fluid">
       <div class="row text-center">
         <div class="col-md-4">
           <h5>Contacts</h5>
